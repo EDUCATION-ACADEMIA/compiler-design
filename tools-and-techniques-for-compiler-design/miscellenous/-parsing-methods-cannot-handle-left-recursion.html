@@ -22,9 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>..... parsing methods cannot handle left recursion
 </title>
-<meta name="description" content="In short, top-down parsers usually try to guess what to do from limited information about the string. Because of this, they get confused by left recursion because they cant always accurately predict which productions to use. Hope this helps!It cannot handle left-recursion because it is a top-down parsing technique, and top-down parsers cannot handle left recursion. This is because in left recursion, for a rule conforming to: A-> Aἄ | β, the starting symbol is repeated immediately after the arrow; making the derivation refer to itself infinitely times.Recursive descent is a top-down parsing technique that constructs the parse tree from the top and the input is read from left to right. It uses procedures for every terminal and non-terminal entity. This parsing technique recursively parses the input to make a parse tree, which may or may not require back-tracking. ">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-<meta name="keywords" content="..... parsing methods cannot handle left recursion">
 </head>
 <body data-rsssl="1" class="page-template-default custom-background custom-background-white custom-font-enabled single-author" style="padding: 0px 0px 154px;">
 <div id="page" class="site" style="height: auto !important;">
